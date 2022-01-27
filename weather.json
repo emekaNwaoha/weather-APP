@@ -1,0 +1,177 @@
+{
+    "weather": [
+        {
+            "city": "New York City",
+            "Temperature": "30'C",
+            "Humidity":"20g/m3",
+            "windspeed":"40m/s"
+        },
+        {
+            "city": "Jerusalem",
+            "Temperature":"40'C",
+            "Humidity":"30g/m3",
+            "windspeed":"20m/s"
+        },
+        {
+            "city": "Lagos",
+            "Temperature":"25'C",
+            "Humidity":"10g/m3",
+            "windspeed":"35m/s"
+        },
+        {
+            "city": "Abuja",
+            "Temperature":"56'C",
+            "Humidity":"80g/m3",
+            "windspeed":"27m/s"
+        },
+        {
+            "city": "Paris",
+            "Temperature":"35'C",
+            "Humidity":"35g/m3",
+            "windspeed":"45m/s"
+        },
+        {
+            "city": "Berlin",
+            "Temperature":"20'C",
+            "Humidity":"12g/m3",
+            "windspeed":"30m/s"
+        },
+        {
+            "city": "Singapore",
+            "Temperature":"45'C",
+            "Humidity":"43g/m3",
+            "windspeed":"58m/s"
+        },
+        {
+            "city": "Amsterdam",
+            "Temperature":"65'C",
+            "Humidity":"12g/m3",
+            "windspeed":"30m/s"
+        },
+        {
+            "city": "Seoul",
+            "Temperature":"75'C",
+            "Humidity":"45g/m3",
+            "windspeed":"12m/s"
+        },
+        {
+            "city": "Tokyo",
+            "Temperature":"47'C",
+            "Humidity":"45g/m3",
+            "windspeed":"130m/s"
+        },
+        {
+            "city": "Port-Novo",
+            "Temperature":"74'C",
+            "Humidity":"27g/m3",
+            "windspeed":"25m/s"
+        },
+        {
+            "city": "Hong Kong",
+            "Temperature":"53'C",
+            "Humidity":"40g/m3",
+            "windspeed":"60m/s"
+        },
+        {
+            "city": "Shanghai",
+            "Temperature":"75'C",
+            "Humidity":"56g/m3",
+            "windspeed":"45m/s"
+        },
+        {
+            "city": "London",
+            "Temperature":"25'C",
+            "Humidity":"20g/m3",
+            "windspeed":"45m/s"
+        },
+        {
+            "city": "Washington,D.C.",
+            "Temperature":"57'C",
+            "Humidity":"80g/m3",
+            "windspeed":"25m/s"
+        },
+        {
+            "city": "California",
+            "Temperature":"41'C",
+            "Humidity":"13g/m3",
+            "windspeed":"80m/s"
+        },
+        {
+            "city": "Chicago",
+            "Temperature":"15'C",
+            "Humidity":"43g/m3",
+            "windspeed":"450m/s"
+        },
+        {
+            "city": "Los Angeles",
+            "Temperature":"23'C",
+            "Humidity":"80g/m3",
+            "windspeed":""
+        },
+        {
+            "city": "Toronto",
+            "Temperature":"45'C",
+            "Humidity":"34g/m3"
+        },
+        {
+            "city": "Hong-Kong",
+            "Temperature":"85'C"
+        },
+        {
+            "city": "Sydney",
+            "Temperature":"40'C",
+            "Humidity":"20g/m3"
+        },
+        {
+            "city": "Johannesbourg",
+            "Temperature":"40'C",
+            "Humidity":"45g/m3"
+        },
+        {
+            "city": "Port Harcourt",
+            "Temperature":"35'C",
+            "Humidity":"45g/m3"
+        },
+        {
+            "city": "Umuahia",
+            "Temperature":"35'C",
+            "Humidity":"40g/m3"
+
+        },
+        {
+            "city": "Warri",
+            "Temperature":"40'C",
+            "Humidity":"45g/m3"
+        },
+        {
+            "city": "Kano",
+            "Temperature":"85'C",
+            "Humidity":"40g/m3"
+        },
+        {
+            "city": "Tel Aviv",
+            "Temperature":"65'C",
+            "Humidity":"35g/m3"
+        },
+        {
+            "city": "Beinjin",
+            "Temperature":"45'C",
+            "Humidity":"15g/m3"
+        },
+        {
+            "city": "New-Delhi",
+            "Temperature":"53'C",
+            "Humidity":"45g/m3"
+        },
+        {
+            "city": "Cairo",
+            "Temperature":"85'C",
+            "Humidity":"56g/m3"
+        },
+        {
+            "city": "Athens",
+            "Temperature":"25'C",
+            "Humidity":"34g/m3"
+        }
+    ]
+}

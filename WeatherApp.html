@@ -1,0 +1,127 @@
+<!DOCTYPE html5.0>
+<html>
+
+<head>
+    <title>
+        Weather App
+    </title>
+    <script
+    src="weather.js"></script>
+    <style>
+        body {
+            background-color: grey;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 1px black;
+            font-family: "Palatino", "Book Antiqua", serif;
+        }
+
+        #intro {
+            position: absolute;
+            padding: 15px 25px;
+            position: center;
+            background-color: skyblue;
+            top: 25px;
+
+        }
+
+        #weatherContainer {
+            background-color: rgba(0, 0, 0, 0.25);
+            box-shadow: 1px 1px 5px black;
+            padding: 35px;
+            border-radius: 10px;
+            position: absolute;
+            bottom: 10px;
+            left: 250px;
+            visibility: visible;
+
+        }
+
+        #cityHeader h1 {
+            margin: 5px;
+            font-size: 42px;
+            font-family: Lucida "Grande", "sans-seriff";
+        }
+
+        #searchContainer {
+            padding: 20px;
+            margin-left: 50%;
+            outline: none;
+            right: 100px;
+
+        }
+
+        #searchContainer button {
+            background-color: skyblue;
+            color: white;
+            width: 75px;
+            outline: none;
+            cursor: pointer;
+
+        }
+
+        .searchControl {
+            box-shadow: 2px 2px 5px rgb(1, 4, 5);
+            border: none;
+            border-radius: 5px;
+            padding: 8px;
+            outline: none;
+            width: 60%;
+            
+
+        }
+
+        #weatherMain {
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        #weatherMain div {
+            display: inline-block;
+        }
+
+        #weatherDescriptionHeader {
+            font-size: 28px;
+            vertical-align: 25%;
+        }
+
+        #temperature {
+            font-size: 38px;
+            vertical-align: 25%;
+        }
+
+        .bottom-details {
+            display: block;
+            font-size: 24px;
+          
+        }
+
+        hr {
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="intro">Welcome to Weather App</h1>
+    <div id="weatherContainer">
+        <p id="weatherDescription"></p>
+            <h1 id="cityHeader"></h1>
+             <p id="weatherMain"></p>
+                <p id="temperature"></p>
+                <p id="weatherDescriptionHeader"></p>
+                <p><img id="documentIconImg"></p>
+                <hr>
+                <p id="windSpeed"
+                class="bottom-details"></p>
+                <p id="humidity" class="bottom-details"></p>
+    </div>
+    <div id="searchContainer">
+        <input class="searchControl" type="text" placeholder="Please Enter City Name" id="searchInput">
+        <button class="searchControl" id="searchBtn">Go!</button>
+    </div>
+</body>
+
+</html>
